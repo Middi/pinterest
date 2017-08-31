@@ -1,9 +1,24 @@
 @import "normalise";
 @import "colors";
 @import "typography";
+@import "cards";
 
+body {
+    background-color: #c7c7c7;
+}
 
+.wrapper {
+    box-sizing: border-box;
+    padding: 30px;
+	margin: 50px auto;
+}
 
-
+.columns {
+    box-sizing: border-box;
+    column-width: 280px;
+    column-gap: 15px;
+	max-width: 1200px;
+    margin: 0 auto;
+}
 
 @import "media-queries";
